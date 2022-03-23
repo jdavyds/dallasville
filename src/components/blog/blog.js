@@ -35,7 +35,7 @@ export default function Blog() {
             </nav>
             <nav>
                 <img src={time} alt="" />
-                <b>First-Time Home Buyer Mistakes <br /> + Life-Saving Tips To Guide You.</b>
+                <b>First-Time Home Buyer Mistakes + Life-Saving Tips To Guide You.</b>
                 <p>Thoughts are powerful. The thoughts that we often repeat in our minds influence our behavior and attitude, our actions, reactions, the way we are towards people, and our life in general. Our lives are shaped by the thoughts we have. A thought repeated always </p>
                 <button>Read More</button>
             </nav>
