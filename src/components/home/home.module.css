@@ -262,13 +262,13 @@
     margin: 20px;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 330px 330px 330px;
+    justify-content: space-evenly;
 }
 .projects div nav {
     background: black;
     color: white;
     margin: auto;
-    width: 350px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -314,7 +314,7 @@
 .plans div:first-of-type {
     width: 100%;
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: 370px 370px 370px;
     justify-content: space-evenly;
 }
 .plans div:first-of-type nav {
