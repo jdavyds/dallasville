@@ -6,7 +6,7 @@ function Header() {
             <img src={logo} alt="" />
             <nav>
                 <NavLink  to='/'>HOME</NavLink>
-                <NavLink  to='/'>WHO WE ARE</NavLink>
+                <NavLink  to='/who-we-are'>WHO WE ARE</NavLink>
                 <NavLink  to='/'>PROJECTS</NavLink>
                 <NavLink  to='/'>WHAT WE DO</NavLink>
                 <NavLink  to='/'>BLOG</NavLink>
