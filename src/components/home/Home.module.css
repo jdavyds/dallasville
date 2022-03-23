@@ -231,7 +231,7 @@
     position: relative;
     padding: 50px 0;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 .list div:last-of-type img {
@@ -538,7 +538,7 @@
 }
 .newsletter div nav:last-of-type {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 }
 .newsletter div nav:last-of-type span {
