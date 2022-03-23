@@ -1,0 +1,91 @@
+.cron section {
+    padding: 100px;
+}
+.bg {
+    width: 100%;
+    height: 100%;
+}
+.bg img {
+    width: 100%;
+}
+.detail {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+.cronFeatures  {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.cronFeatures nav {
+    background: white;
+    box-shadow: 0 0 5px 0 grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    height: 180px;
+    text-align: center;
+    line-height: 1.5em;
+    border-radius: 5px;
+    z-index: 1111;
+}
+.cronFeatures nav span {
+    margin: 10px 0;
+}
+.detail h4 {
+    font-size: 22px;
+    margin: 20px 0;
+}
+.detail h3 {
+    font-size: 22px;
+    color: red;
+    margin: 20px 0;
+}
+.detail p {
+    font-size: 18px;
+    width: 80%;
+}
+.detail .dip {
+    width: 100%;
+    height: 650px;
+    background: yellow;
+}
+.dip img {
+    height: 100%;
+    width: 100%;
+}
+.detail {
+    width:  100%;
+    position: relative;
+}
+.detail i:first-of-type {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 120px;
+    z-index: -1;
+}
+.detail i:first-of-type img {
+    width: 100%;
+}
+.detail i:last-of-type {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    right: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+}
+.detail i:last-of-type img {
+    width: 100%;
+}
+.detail div {
+    background: white;
+}

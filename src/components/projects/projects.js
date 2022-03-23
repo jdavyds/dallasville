@@ -9,6 +9,7 @@ import project5 from './../../assets/project5.png'
 import project6 from './../../assets/project6.png'
 import dots4 from './../../assets/Group 73.png'
 import waves from './../../assets/waveElements3.png'
+import { Link } from 'react-router-dom'
 
 export default function Projects() {
   return (
@@ -21,35 +22,35 @@ export default function Projects() {
                 <img src={dots4} alt="" />
             </i>
         <div>
-                    <nav>
+                    <Link to='/'>
                         <img src={project1} alt="" />
                         <span>The Twin Tower</span>
-                    </nav>
-                    <nav>
+                    </Link>
+                    <Link to='/cron-apartment'>
                         <img src={project2} alt="" />
                         <span>Corns Apartment</span>
-                    </nav>
-                    <nav>
+                    </Link>
+                    <Link to='/'>
                         <img src={project3} alt="" />
                         <span> The Edge Car Park</span>
-                    </nav>
+                    </Link>
         </div>
         <i>
             <img src={waves} alt="" />
         </i>
         <div>
-                    <nav>
+                    <Link to='/'>
                         <img src={project4} alt="" />
                         <span>Harlet</span>
-                    </nav>
-                    <nav>
+                    </Link>
+                    <Link to='/'>
                         <img src={project5} alt="" />
                         <span>Cross Apartments</span>
-                    </nav>
-                    <nav>
+                    </Link>
+                    <Link to='/'>
                         <img src={project6} alt="" />
                         <span> The Edge</span>
-                    </nav>
+                    </Link>
         </div>
         </main>
     </div>

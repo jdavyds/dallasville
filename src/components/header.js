@@ -9,7 +9,7 @@ function Header() {
                 <NavLink  to='/who-we-are'>WHO WE ARE</NavLink>
                 <NavLink  to='/our-projects'>PROJECTS</NavLink>
                 <NavLink  to='/what-we-do'>WHAT WE DO</NavLink>
-                <NavLink  to='/'>BLOG</NavLink>
+                <NavLink  to='/blog'>BLOG</NavLink>
                 <NavLink  to='/get-in-touch'>GET IN TOUCH</NavLink>
             </nav>
         </header>
