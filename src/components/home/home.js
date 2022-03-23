@@ -17,14 +17,14 @@ import cctv from './../../assets/cctv-camera.png'
 import elevator from './../../assets/elevator.png'
 import dots from './../../assets/Group 1703.png'
 import dots4 from './../../assets/Group 73.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import ellipse from './../../assets/Ellipse 1.png'
 import twist from './../../assets/Vector 103.png'
 import dots2 from './../../assets/Group 1761.png'
 import waves from './../../assets/waveElements.png'
 import dots3 from './../../assets/Group 1762.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck, faStar, faArrowRight } from '@fortawesome/free-solid-svg-icons'
-import style from './home.module.css'
+import style from './Home.module.css'
 export default function Home() {
     return(
         <main>

@@ -1,6 +1,6 @@
 import React from 'react'
 import bg from './../../assets/whatbg.png'
-import style from './../what/what.module.css'
+import style from './../what/What.module.css'
 import res from './../../assets/Frame 683.png'
 import com from './../../assets/Frame 683 (1).png'
 import infa from './../../assets/Frame 683 (2).png'
@@ -14,7 +14,7 @@ export default function What() {
         <nav className={style.bg}>
             <img src={bg} alt="" />
         </nav>
-        <section>
+        <section className={style.sect}>
             <i>
                 <img src={dots4} alt="" />
             </i>

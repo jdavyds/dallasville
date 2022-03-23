@@ -1,6 +1,6 @@
 import React from 'react'
 import bg from './../../assets/whobg.png'
-import style from './../whoweare/who.module.css'
+import styles from './../whoweare/Who.module.css'
 import who from './../../assets/who.png'
 import waves from './../../assets/waveElements2.png'
 import member1 from './../../assets/Frame 672.png'
@@ -10,11 +10,11 @@ import member4 from './../../assets/Frame 675.png'
 import member5 from './../../assets/Frame 676.png'
 export default function Who() {
   return (
-    <div className={style.who}>
-        <nav className={style.bg}>
+    <div className={styles.who}>
+        <nav className={styles.bg}>
             <img src={bg} alt="" />
         </nav>
-        <section className={style.info}>
+        <section className={styles.info}>
                 <div>
                     <span>
                         <nav></nav>
@@ -31,7 +31,7 @@ export default function Who() {
                     <p>We are set to perpetually raise the bar of luxury living in Africa and beyond. We Think, We Create, We Build.</p>
                 </div>
             </section>
-            <section className={style.statements}>
+            <section className={styles.statements}>
                 <h3>We Make A Mark</h3>
                 <div>
                     <nav>
@@ -51,7 +51,7 @@ export default function Who() {
                     <img src={waves} alt="" />
                 </i>
             </section>
-            <section className={style.team}>
+            <section className={styles.team}>
                 <h3>Our Team</h3>
                 <p>Our team comprises of highly skilled and well-motivated individuals with extensive experience and knowledge about <br /> the workings of the real estate market. Aligning Alphato Construction & Property Development values, the Senior <br /> Management team are responsible for driving company performance.</p>
                 <div>

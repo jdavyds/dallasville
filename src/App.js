@@ -6,6 +6,7 @@ import Footer from './components/footer';
 import Who from './components/whoweare/who';
 import What from './components/what/what';
 import Contact from './components/contactus/contact';
+import Projects from './components/projects/projects';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
         <Route path='/who-we-are' element={<Who/>} ></Route>
         <Route path='/what-we-do' element={<What/>} ></Route>
         <Route path='/get-in-touch' element={<Contact/>} ></Route>
+        <Route path='/our-projects' element={<Projects/>} ></Route>
       </Routes>
       <Footer />
     </div>

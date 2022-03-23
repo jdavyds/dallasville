@@ -138,29 +138,29 @@
 .types nav p {
     line-height: 1.5em;
 }
-section {
+.sect {
     position: relative;
     z-index: 1;
 }
-section i:first-of-type {
+.sect i:first-of-type {
     position: absolute;
     top: 100px;
     left: 0;
     width: 120px;
 }
-section i:first-of-type img {
+.sect i:first-of-type img {
     width: 100%;
 }
-section i:last-of-type {
+.sect i:last-of-type {
     position: absolute;
     display: flex;
     height: 100%;
     align-items: center;
     right: 0;
     top: 0;
-    width: 400px;
     z-index: -1;
+    opacity: 0.6;
 }
-section i:last-of-type img {
+.sect i:last-of-type img {
     width: 100%;
 }

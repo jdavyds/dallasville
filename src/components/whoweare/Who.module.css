@@ -89,16 +89,16 @@
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     position: relative;
 }
 .statements h3 {
     font-size: 22px;
-    margin: 30px;
+    margin: 30px auto;
 }
 .statements div {
     width: 80%;
-    margin: 20px 0;
+    margin: 20px auto;
     padding: 20px 0 200px 0;
     display: flex;
     justify-content: space-evenly;
@@ -126,6 +126,7 @@
     right: 0;
     z-index: 0;
     opacity: 0.5;
+    height: fit-content;
 }
 .team {
     padding: 50px 0 100px 0;
