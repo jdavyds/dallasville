@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './../cron apartment/cron.module.css'
+import style from './projects.module.css'
 import bg from './../../assets/projects.png'
 import wire from './../../assets/wire.png'
 import power from './../../assets/power-supply.png'
@@ -9,7 +9,7 @@ import img from './../../assets/contact.png'
 import dots4 from './../../assets/Group 73.png'
 import waves from './../../assets/waveElements3.png'
 
-export default function Cron() {
+export default function Edge() {
   return (
     <div className={style.cron}>
         <nav className={style.bg}>
@@ -20,7 +20,7 @@ export default function Cron() {
                 <img src={dots4} alt="" />
                 </i>
                 <div>
-                    <h4>Crons Apartment</h4>
+                    <h4>The Edge</h4>
                     <p>Corns Apartments By ChaviD Properties is a luxurious 3bedroom Apartment located in the heart of Jahi District Abuja. It’s designed to cater for individuals with premium taste and class. </p>
                     <div className={style.dip}>
                         <img src={img} alt="" />

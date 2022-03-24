@@ -1,11 +1,11 @@
 import React from 'react'
-import style from './../thought/thought.module.css'
+import style from './article.module.css'
 import bg from './../../assets/blog.png'
 import thought from './../../assets/thought.png'
 import dots4 from './../../assets/Group 73.png'
 import waves from './../../assets/waveElements3.png'
 
-export default function Thoughts() {
+export default function Mistakes() {
   return (
     <div>
         <nav className={style.bg}>
@@ -18,7 +18,7 @@ export default function Thoughts() {
             <figcaption>
                 <img src={thought} alt="" />
             </figcaption>
-            <h2>How To Shape Your Life With The Power Of Thoughts</h2>
+            <h2>First-Time Home Buyer Mistakes + Life-Saving Tips To Guide You.</h2>
             <i>
                 <img src={waves} alt="" />
             </i>

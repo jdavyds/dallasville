@@ -16,6 +16,7 @@ export default function Who() {
         </nav>
         <section className={styles.info}>
                 <div>
+                    <h4>Who We Are</h4>
                     <span>
                         <nav></nav>
                         <img src={who} alt="" />

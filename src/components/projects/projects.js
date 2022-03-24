@@ -22,7 +22,7 @@ export default function Projects() {
                 <img src={dots4} alt="" />
             </i>
         <div>
-                    <Link to='/'>
+                    <Link to='/the-twin-tower'>
                         <img src={project1} alt="" />
                         <span>The Twin Tower</span>
                     </Link>
@@ -30,7 +30,7 @@ export default function Projects() {
                         <img src={project2} alt="" />
                         <span>Corns Apartment</span>
                     </Link>
-                    <Link to='/'>
+                    <Link to='/the-edge-car-park'>
                         <img src={project3} alt="" />
                         <span> The Edge Car Park</span>
                     </Link>
@@ -39,15 +39,15 @@ export default function Projects() {
             <img src={waves} alt="" />
         </i>
         <div>
-                    <Link to='/'>
+                    <Link to='/harlet'>
                         <img src={project4} alt="" />
                         <span>Harlet</span>
                     </Link>
-                    <Link to='/'>
+                    <Link to='/cross-apartments'>
                         <img src={project5} alt="" />
                         <span>Cross Apartments</span>
                     </Link>
-                    <Link to='/'>
+                    <Link to='/the-edge'>
                         <img src={project6} alt="" />
                         <span> The Edge</span>
                     </Link>

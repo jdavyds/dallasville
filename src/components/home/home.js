@@ -42,7 +42,7 @@ export default function Home() {
                         <img src={twist} alt="" />
                     </nav>
                 </div>
-                <img src={intro} alt="" />
+                <img src={intro} alt=""  className={style.introImg}/>
                 <nav>
                         <img src={ellipse} alt="" />
                 </nav>
@@ -50,6 +50,7 @@ export default function Home() {
             {/* ABOUT */}
             <section className={style.about}>
                 <div>
+                    <h4>About Us</h4>
                     <span>
                         <nav></nav>
                         <img src={intro} alt="" />
@@ -148,6 +149,7 @@ export default function Home() {
                     </ul>
                 </div>
                 <div>
+                    <h3>3-Bedroom Luxury Apartment</h3>
                     <img src={list} alt="" />
                 </div>
             </section>
@@ -196,7 +198,7 @@ export default function Home() {
                     <nav>
                         <h4>PLAN B: <br /> (12 MONTHS)</h4>
                         <h3>N40,000,000</h3>
-                        <p>First Installment - 30% (N12,000,000) <br /> Second Installment - 30% (N12,000,000) <br /> Third Installment - 20% (N8,000,000) <br /> Fourth Installment - 20% (N8,000,000)</p>
+                        <p className={style.install}>First Installment - 30% (N12,000,000) <br /> Second Installment - 30% (N12,000,000) <br /> Third Installment - 20% (N8,000,000) <br /> Fourth Installment - 20% (N8,000,000)</p>
                         <ul>
                             <li>
                                 <FontAwesomeIcon icon={faCheck} className={style.tick} /> <p> All Prices are VAT inclusive.</p>
@@ -215,7 +217,7 @@ export default function Home() {
                     <nav>
                         <h4>PLAN C: <br /> (16 MONTHS)</h4>
                         <h3>N42,000,000</h3>
-                        <p>First Installment - 20% (N8,400,000) <br /> Second Installment - 20% (N8,400,000) <br /> Third Installment - 20% (N8,400,000) <br /> Fourth Installment - 20% (N8,400,000) <br /> Fifth Installment - 20% (N8,400,000)</p>
+                        <p className={style.install}>First Installment - 20% (N8,400,000) <br /> Second Installment - 20% (N8,400,000) <br /> Third Installment - 20% (N8,400,000) <br /> Fourth Installment - 20% (N8,400,000) <br /> Fifth Installment - 20% (N8,400,000)</p>
                         <ul>
                             <li>
                                 <FontAwesomeIcon icon={faCheck} className={style.tick} /> <p> All Prices are VAT inclusive.</p>

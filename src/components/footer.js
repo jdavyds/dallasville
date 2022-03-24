@@ -14,8 +14,8 @@ export default function Footer() {
             <div>
                 <nav>
                     <Link to='/'>About</Link>
-                    <Link to='/'>Privacy Policy</Link>
-                    <Link to='/'>Terms of Service</Link> 
+                    <Link to='/privacy-policy'>Privacy Policy</Link>
+                    <Link to='/terms-of-service'>Terms of Service</Link> 
                 </nav>
                 <nav>
                     Follow Us <br />

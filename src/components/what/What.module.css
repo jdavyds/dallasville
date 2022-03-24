@@ -97,7 +97,11 @@
     height: 50px;
     width: 120px;
     margin: 10px 0;
+    cursor: pointer;
     border-radius: 3px;
+}
+.contact form button:hover {
+    background: grey;
 }
 .types {
     z-index: 11;

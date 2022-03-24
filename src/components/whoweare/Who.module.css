@@ -138,3 +138,124 @@
 .team div img {
     height: 250px;
 }
+.info div:first-of-type h4 {
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .who .bg {
+        width: 100%;
+        height: 200px;
+    }
+    .who .bg img {
+        width: 100%;
+        height: 100%;
+    }
+    .info {
+        width: 100%;
+        overflow-x: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin: 20px 0;
+    }
+    .info div {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .info div:first-of-type {
+        position: relative;
+        width: 100%;
+        margin: 30px 0;
+    }
+    .info div:first-of-type h4 {
+        display: flex;
+        margin: 0 0 50px 0;
+    }
+    .info div:last-of-type h4 {
+        display: none;
+    }
+    .info div img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 111;
+    }
+    .info div span {
+        margin: auto;
+        height: 300px;
+        width: auto;
+        position: relative;
+    }
+    .info p {
+        width: 100%;
+        font-size: 18px;
+        margin: 10px 0;
+        line-height: 1.5em;
+    }
+    .statements {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .statements h3 {
+        font-size: 20px;
+        margin: 30px auto;
+    }
+    .statements div {
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px 0 50px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .statements div nav {
+        margin: 20px;
+        z-index: 1111;
+    }
+    .statements div nav b {
+        margin: 20px 0 15px 0;
+        padding: 5px;
+        font-size: 22px;
+        border-bottom: 3px solid #d6790f;
+    }
+    .statements i {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        opacity: 0.5;
+        height: fit-content;
+    }
+    .team {
+        padding: 10px 20px 100px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .team h3 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .team p {
+        text-align: unset;
+        font-size: 16px;
+        margin: 0;
+    }
+    .team div {
+        width: 100%;
+        margin: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team div img {
+        margin: 20px 0;
+        height: 250px;
+        width: 100%;
+    }
+}

@@ -72,6 +72,9 @@
     margin: 10px 0;
     border-radius: 3px;
 }
+.form button:hover {
+    background: grey;
+}
 .info {
     position: relative;
     z-index: 1;

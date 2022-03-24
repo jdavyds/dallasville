@@ -50,6 +50,9 @@
     margin: 20px;
     border-radius: 3px;
 }
+.stories nav button:hover {
+    background: grey;
+}
 .stories nav button a {
     color: inherit;
     text-decoration: none;
