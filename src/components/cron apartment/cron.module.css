@@ -50,15 +50,6 @@
     font-size: 18px;
     width: 80%;
 }
-.detail .dip {
-    width: 100%;
-    height: 650px;
-    background: yellow;
-}
-.dip img {
-    height: 100%;
-    width: 100%;
-}
 .detail {
     width:  100%;
     position: relative;
@@ -88,4 +79,77 @@
 }
 .detail div {
     background: white;
+}
+.detail .dip {
+    display: none;
+}
+.detail .dipp {
+    width: 100%;
+    height: 650px;
+    background: yellow;
+}
+.dipp img {
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (max-width: 800px) {
+    .cron section {
+        padding: 20px;
+    }
+    .bg {
+        width: 100%;
+        height: 250px;
+    }
+    .bg img {
+        width: 100%;
+        height: 100%;
+    }
+    .detail {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .detail div {
+        width: 100%;
+    }
+    .cronFeatures  {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .cronFeatures nav {
+        margin: 20px 0;
+        width: 46%;
+        height: auto;
+    }
+    .cronFeatures nav span {
+        margin: 10px 0;
+    }
+    .detail h4 {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .detail h3 {
+        font-size: 20px;
+        color: red;
+        margin: 20px 0;
+    }
+    .detail p {
+        font-size: 16px;
+        width: 100%;
+    }
+    .detail .dip {
+        display: flex;
+        margin: 20px 0;
+        width: 100%;
+        height: 300px;
+    }
+    .detail .dipp {
+        display: none;
+    }
+    .dip img {
+        height: 100%;
+        width: 100%;
+    }
 }

@@ -1,5 +1,8 @@
 import logo from './../assets/Dallasville.png';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 function Header() {
     return(
         <header>
@@ -12,6 +15,7 @@ function Header() {
                 <NavLink  to='/blog'>BLOG</NavLink>
                 <NavLink  to='/get-in-touch'>GET IN TOUCH</NavLink>
             </nav>
+            <FontAwesomeIcon icon={faBars} className='ham' /> 
         </header>
     )
 }

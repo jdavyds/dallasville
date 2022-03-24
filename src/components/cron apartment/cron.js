@@ -22,6 +22,9 @@ export default function Cron() {
                 <div>
                     <h4>Crons Apartment</h4>
                     <p>Corns Apartments By ChaviD Properties is a luxurious 3bedroom Apartment located in the heart of Jahi District Abuja. It’s designed to cater for individuals with premium taste and class. </p>
+                    <div className={style.dip}>
+                        <img src={img} alt="" />
+                    </div>
                     <h3>Features</h3>
                     <div className={style.cronFeatures}>
                         <nav>
@@ -34,7 +37,7 @@ export default function Cron() {
                         </nav>
                         <nav>
                             <img src={cctv} alt="" />
-                            <span>24-hour CCTV with Artificial Intelligenc</span>
+                            <span>24-hour CCTV with Artificial Intelligence</span>
                         </nav>
                         <nav>
                             <img src={elevator} alt="" />
@@ -45,7 +48,7 @@ export default function Cron() {
                 <i>
                     <img src={waves} alt="" />
                 </i>
-                <div className={style.dip}>
+                <div className={style.dipp}>
                     <img src={img} alt="" />
                 </div>
         </section>
