@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from './../../assets/whatbg.png'
+import bg from './../../assets/Frame 2.png'
 import style from './../what/What.module.css'
 import res from './../../assets/Frame 683.png'
 import com from './../../assets/Frame 683 (1).png'
@@ -40,6 +40,7 @@ export default function What() {
             </i>
             <div className={style.contact}>
                 <div>
+                    <h2>Book a Consultation</h2>
                     <figcaption>
                         <span></span>
                         <span></span>

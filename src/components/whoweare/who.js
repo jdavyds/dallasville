@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from './../../assets/whobg.png'
+import bg from './../../assets/Frame 2 (1).png'
 import styles from './../whoweare/Who.module.css'
 import who from './../../assets/who.png'
 import waves from './../../assets/waveElements2.png'
